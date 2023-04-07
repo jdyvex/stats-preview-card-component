@@ -26,11 +26,6 @@
   margin: 0;
 }
 
-html,
-body {
-  height: 100%;
-}
-
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
@@ -170,7 +165,9 @@ h2 span {
   .container {
     display: flex;
     flex-direction: row-reverse;
-    margin: 10vw;
+    justify-content: center;
+    align-items: center;
+    margin: 5vw;
     padding: 0;
   }
   .card {
